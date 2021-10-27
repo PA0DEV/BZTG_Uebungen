@@ -3,7 +3,7 @@
 ## __01_Übung Listen__
 Gegeben ist folgende Liste:
 
-    namen = [Werner, Udo, Herbert, Silke, Claudia, Kai, Kerstin, Elke, Toni, Christina, Anna, Ute, Klaus, Britta, Katja, Simone, Claus, Tim, Theodor]
+    namen = ["Werner", "Udo", "Herbert", "Silke", "Claudia", "Kai", "Kerstin", "Elke", "Toni", "Christina", "Anna", "Ute", "Klaus", "Britta", "Katja", "Simone", "Claus", "Tim", "Theodor"]
 
 __Aufgabe 1:__
 
