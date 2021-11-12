@@ -28,13 +28,14 @@ else:
 Nummer 2
 Ausgabe aller Schaltjahre bis 5000 in einer Liste
 '''
-minJahr = 1800
-maxJahr = 2300
-listeSchaltjahre = []
 
-for i in range(maxJahr - minJahr):
+minJahr = 1800          #Erstes Jahr, dass geprüft werden soll
+maxJahr = 2300          #Letztes Jahr, dass geprüft werden soll
+listeSchaltjahre = []   #Liste der Schaltjahre
+
+for i in range(maxJahr - minJahr + 1):
     jahr = i + minJahr
     if (jahr % 4 == 0) and ((jahr % 100 != 0) or (jahr % 400 == 0)):     #Prüfung ob es ein Schaltjahr ist
         listeSchaltjahre.append(jahr)
 
-print("Liste der Schaltjahre zwischen", minJahr, "und", maxJahr, ":", listeSchaltjahre)
+print("Liste der Schaltjahre zwischen", minJahr, "und", maxJahr, ":\n", listeSchaltjahre)       #Ausgabe
