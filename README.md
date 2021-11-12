@@ -42,7 +42,7 @@ __Ausgabe der Lösung:__
 
 
 
-## __02_Übung Schaltjahre
+## __02_Übung Schaltjahre__
 
 __Aufgabe 1__
 Für eine festgelegte Jahreszahl soll geprüft werden, ob es sich um ein Schaltjahr handelt oder nicht.
@@ -54,7 +54,7 @@ Es gilt:
 
 Ausgabe:
 
-Das Jahr 2000 ist ein Schaltjahr.
+    Das Jahr 2000 ist ein Schaltjahr.
 
 __Aufgabe 2__
 Erstellen Sie eine Liste mit allen Schaltjahren von 1800 bis 2100. Geben Sie die Liste anschließend aus.
