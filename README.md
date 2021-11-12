@@ -36,10 +36,7 @@ __Aufgabe 7:__
 Ermitteln Sie die Anzahl der Listenelemente und geben Sie diese aus.
 
 __Ausgabe der Lösung:__
-![](Serial_Output.JPG)
-
-
-
+![](/01_Uebung%20Listen/Serial_Output.JPG)
 
 
 ## __02_Übung Schaltjahre__
@@ -58,3 +55,13 @@ Ausgabe:
 
 __Aufgabe 2__
 Erstellen Sie eine Liste mit allen Schaltjahren von 1800 bis 2100. Geben Sie die Liste anschließend aus.
+
+## __Übungen 2__
+__Aufgabe 1:__
+Schreiben Sie ein Programm, das mithilfe einer for-Schleife alle durch 9 teilbaren Zahlen zwischen zwei zuvor eingegebenen Grenzen in eine Liste schreibt und dann ausgibt.
+
+Ausgabe: 
+    Folgende Zahen sind zwischen 0 und 100 durch 9 teilbar: [0, 9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99]
+
+__Aufgabe 2:__
+Sie bauen ein Haus und wollen wissen wieviel Geld Sie bei einer bestimmten Summe und einem bestimmten Zinssatz monatlich zahlen müssen, wenn Sie in 10 Jahren schuldenfrei sein wollen.
