@@ -10,12 +10,16 @@
 # dann ausgibt.
 
 zahlen = []
-teiler = 9
-minZahl = 0
-maxZahl = 100
+teiler = 9          #Zahl durch die das Ergebnis ganzzahlig Teilbar sein soll
+minZahl = 10         #Erste geprüfte Zahl
+maxZahl = 100       #Letzte geprüfte Zahl
 
-for i in range(maxZahl - minZahl + 1):
-    if i % teiler == 0:
+
+
+#for-Schleife zum testen aller Zahlen im parametrierten Bereich
+for i in range(minZahl, maxZahl - minZahl + 1):
+    if i % teiler == 0:        #Prüfung ob die Zahl durch den Teiler teilbar ist
+        #Wenn ja, füge die Zahl zu der Liste der Ergebnisse hinzu
         zahlen.append(i)
 
 print("Folgende Zahen sind zwischen", minZahl, "und", maxZahl, "durch", teiler, "teilbar:", zahlen)
