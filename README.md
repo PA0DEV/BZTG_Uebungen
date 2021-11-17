@@ -81,7 +81,7 @@ Parameter:
 
 Ausgabe:
 
-    Monatliche Rate um schuldenfrei zu sein beträgt ______ €
+    Monatliche Rate um schuldenfrei zu sein beträgt 1109.20€
 
 __Aufgabe 3:__
 Ermitteln Sie für einen festgelegten Zahlenbereich die Primzahlen und schreiben sie diese in eine Liste. Geben Sie die Liste anschließend aus.
