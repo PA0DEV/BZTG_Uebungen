@@ -11,19 +11,27 @@
 
 import math
 
-pruefZahlen = []
 primZahlen = []
-minZahl = 1         # Erste zu überprüfende Zahl
+teiler =[]
+
+minZahl = 10         # Erste zu prüfende Zahl (mindestens 2)
 maxZahl = 1000       # Letzte zu überprüfende Zahl
 
-for i in range(2, maxZahl+1):
-    isPrim = True
-    for number in primZahlen:
-        if i % number == 0:
-            isPrim = False
-            break
-    if isPrim:
-        primZahlen.append(i)
 
-print("Liste der Primzahlen zwischen", minZahl, "und", maxZahl, "\n", primZahlen)
+if minZahl < 2:
+    exit("[ERROR] Min zahl muss mindestens 2 sein!")
+
+for i in range(2, maxZahl+1):
+    teiler.append(i)
+
+for j in range(minZahl, maxZahl+1):   #
+    isPrim = True                   # flag Primzahl
+    for number in teiler:       # prüfen duch teilen mit allen bisher gefundenen Primzahlen
+        if j % number == 0:
+            isPrim = False          # Wenn zahl ganzzahlig Teilbar, dann setze flag --> 0 und beende die überprüfung
+            break
+    if isPrim:                      # Wenn die Flag noch True ist nach der prüfung,
+        primZahlen.append(i)        # füge Zahl der Liste hinzu
+
+print("Liste der Primzahlen bis", maxZahl, "\n", primZahlen)
 
